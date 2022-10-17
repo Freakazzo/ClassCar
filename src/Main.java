@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Rideble mazda = new Car();
+        Car sedan = new Sedan();
+        sedan.start();
+//        Rideble mazda = new Car();
         Rideble boat = new Boat();
-        mazda.ride();
+//        mazda.ride();
         boat.ride();
 
 //        Car lada = new Car("Lada", 123, false, 20);
