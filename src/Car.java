@@ -1,10 +1,10 @@
-public abstract class Car extends Transport implements Rideble{
+public abstract class Car extends Transport implements Rideble {
     String brand;
     int horsePower;
     boolean isAwd;
     float acceleration;
 
-    Car() {
+    public Car() {
         this("Mazda", 190, false, 10);
 
     }
@@ -17,7 +17,7 @@ public abstract class Car extends Transport implements Rideble{
         type = "Car";
     }
 
-     abstract void start();
+    abstract void start();
 
     public void setAcceleration(float acceleration) {
         this.acceleration = acceleration;
